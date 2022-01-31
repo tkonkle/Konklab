@@ -1,7 +1,1431 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Konklab</title>
+  <link rel="icon" href="misc/Harvard_Shield_med.png">
+
+  <!-- Bootstrap -->
+  <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- fots -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <!-- ==================== navbar ==================== -->
+  <div class="tknav">
+    <div class="container tksidePadding">
+
+      <div id="konkLabDiv">
+        <span id="homePageLink" class="labname"><a href=#>konklab</a></span>
+      </div>
+      <div id="navLinksDiv">
+        <span id="researchPageLink" class="tknavlink"><a href=#>research</a></span>
+        <span id="pubsPageLink" class="tknavlink"><a href=#>publications</a></span>
+        <span id="peoplePageLink" class="tknavlink"><a href=#>people</a></span>
+        <span id="imagesetsPageLink" class="tknavlink"><a href=#>Image Sets</a></span>
+        <span id="morePageLink" class="tknavlink"><a href=#>join</a></span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ==================== home ==================== -->
+<div class="container tksidePadding tkbottomPadding tkpage" id="homePage">
+
+
+  <div id="KonkleResearchVertImg" class="col-xs-12 col-sm-4 frontTextBox"><img class="konklabImg" src="ResearchImages/KonkleResearchVert.png"></div>
+
+  <div class="col-xs-12 col-sm-6 frontTextBox">
+
+    <span class="welcomeText">Welcome to the Konkle Lab!</span>
+
+
+    <br><br> Our broad <b>aim</b> is to understand how we see and represent the world around us. How is the human visual system organized, and what pressures guide this organization?
+    How does vision interface with action demands, so we can interact in the world, and with conceptual representation, so we can learn more about the world by looking?
+
+    <br><br>My <b>approach</b> starts from the premise that the connections of the brain are driven by powerful biological
+    constraints—as such, where different kinds of information is found in the brain is not arbitrary,
+    and serves as a clue into the underlying representational goals of the system.  My research approach is
+    inspired by considering the experience and needs of an active observer in the world—this thinking continually
+    deepens my understanding of how behavioral capacities are expectant in the local
+    and long-range architecture of the brain, and how neural networks absorb the statistics
+    of visual experience and the consequences of actions, 
+    to realize the functions latent in the structure.  
+
+    <br><br>The <b>techniques</b> we use include both empirical and computational methods.
+    We use functional neuroimaging and electroencephalography to measure the human brain.
+    We develop computational models to link network architecture with cortical topography. 
+    We use behavioral methods to measure human perceptual and cognitive capacities.
+    And, we draw on machine vision and deep learning approaches to gain empirical traction into the formats of hierarchical visual representation that can support different visual behaviors. 
+
+
+    <!-- <br><br>Our broad <span class="semiBold">aim</span> is to characterize <u>representational spaces of the mind</u> and how they are mapped onto the <u>surface of the brain</u>.
+    We focus primarily on high-level visual representation: how do we organize our knowledge of objects, actions, and scenes?
+
+    <br><br>Our <span class="semiBold">approach</span> is to leverage the spatial structure in neural responses to gain insight into functional organization of the mind and brain.
+    The spatial topography and connectivity of neural regions are driven by powerful biological organizing principles that broadly
+    reflect the computational goals of the system. As such, we aim to develop models of <i>what</i> regions do in the context of <i>where</i> they
+    fall and <i>why</i> they come to be organized that way.
+
+    <br><br>The <span class="semiBold">techniques</span> we use include functional neuroimaging and behavioral methods in human participants.
+    We complement these empirical techniques with computational modeling (including deep neural networks), to operationalize representational spaces
+    defined at a cognitive level and compare them with the tuning and topography of neural responses. -->
+
+
+    <br><br>
+    <span class="formatCitation">contact:</span>
+    <br><b>talia_konkle@harvard.edu</b> |
+    <a class="trackClick" data="CV" href="CV/Konkle_CurriculumVitae.pdf" target="_blank"> CV </a> |
+    <a class="trackClick" data="GoogleScholarLink" href="http://scholar.google.com/citations?user=QxV9vroAAAAJ&hl=en" target="_blank"> google scholar </a> |
+    <a class="trackClick" data="TwitterHandle" href="https://twitter.com/talia_konkle", target="_blank"> @talia_konkle </a>
+
+    <br>
+    William James Hall 780<br>
+    33 Kirkland St<br>
+    Cambridge, MA <br>
+    (617) 495-3886
+    <br><br>
+
+  </div>
+
+</div>
+
+<!-- ==================== research ==================== -->
+<div class="container tksidePadding tkbottomPadding tkpage" id="researchPage">
+
+  <div class="tkheading">   Current research projects: </div>
+  <div class="line"></div>
+
+  <div class="researchCard">
+    <div class="researchBlurb col-sm-12 col-md-6">
+      <!-- <b>Selected research projects presented at recent conferences:</b> -->
+      <!-- <br><br> -->
+      <span class="researchRef">
+        <b>Modeling Cortical Topography </b>
+        <ul class="marginbottom">
+          <li><a href="https://www.youtube.com/watch?v=zZvrIuoxU6Y&list=PL4zG14HCmGV1mV5VCSIOoViVOsQmEo7he&index=1" target="_blank">video:</a> Organizational motifs of cortical responses to objects emerge in topographic projections of deep neural networks	<span class="lightWeight">Doshi & Konkle.</span></li>
+          <li><a href="https://www.youtube.com/watch?v=wEfSeKy0LgA&list=PL4zG14HCmGV1mV5VCSIOoViVOsQmEo7he&index=2" target="_blank">video:</a> Wiring minimization of deep neural networks reveal conditions in which multiple visuotopic areas emerge <span class="lightWeight">Obeid & Konkle.</span></li>
+        </ul>
+
+
+        <b>On the nature of object representation </b>
+        <ul class="marginbottom">
+          <li><a href="https://www.youtube.com/watch?v=y5g36vMNz_0" target="_blank">video:</a> Computational evidence for integrated rather than specialized feature tuning in category-selective regions.	<span class="lightWeight">Prince & Konkle.</span></li>
+          <li><a href="https://www.youtube.com/watch?v=7RNoXHNlm00" target="_blank">video:</a> Deepnets do not need category supervision to predict visual system responses to objects. <span class="lightWeight"> Konkle & Alvarez.</span></li>
+          <li><a href="https://www.youtube.com/watch?v=uj9wFfhpp6A" target="_blank">video:</a> Object-selective cortex shows distinct representational formats along the posterior-to-anterior axis: evidence from brain-behavior correlations. <span class="lightWeight"> Magri & Konkle.</span></li>
+          <li><a href="https://www.youtube.com/watch?v=NgkczYUqVH8" target="_blank">video:</a> Mid-level feature differences support early EEG-decoding of animacy and object size distinctions. <span class="lightWeight"> Wang, Janini, Kallmayer, & Konkle.</span></li>
+          <li><a href="https://www.youtube.com/watch?v=hHgza9lkRJc&t=6s" target="_blank">video:</a> How big should this object be? Perceptual influences on viewing-size preferences. <span class="lightWeight"> Chen, Deza, & Konkle.</span></li>
+        </ul>
+
+
+
+        <br><b>Exploring what else deep neural networks can do</b>
+        <ul class="marginbottom">
+          <!-- <li>Integrating border-ownership computations into deep neural networks yields better fits to early visual cortex. <span class="lightWeight"> Alvarez & Konkle.</span></li> -->
+          <li><a href="https://www.youtube.com/watch?v=-2h7JKi3STI" target="_blank">video:</a> Approximate number representations emerge in object-trained convolutional neural networks and show human-like signatures of number discrimination. <span class="lightWeight"> Janini & Konkle.</span></li>
+          <li><a href="https://www.youtube.com/watch?v=W84ZvGF-cGY" target="_blank">video:</a> Comparing representations that support object, scene, and face recognition using deepnet trajectory analysis. <span class="lightWeight"> Kallmayer, Prince, & Konkle.</span></li>
+        </ul>
+
+        <br><b>Scenes, reachable environments, and the periphery </b>
+        <ul class="marginbottom">
+          <li><a href="https://www.youtube.com/watch?v=C2nhLek3Ei4" target="_blank">video:</a> Neural representation of the visual environment along the continuum from objects to scenes. <span class="lightWeight">Park, Josephs, & Konkle.</span></li>
+          <li><a href="https://youtu.be/oWuQATCXlDw" target="_blank">video:</a> Emergent dimensions underlying the reachable world. <span class="lightWeight"> Josephs, Hebart, & Konkle.</span></li>
+          <!-- <li><a href="https://www.youtube.com/watch?v=OuibtZMgTeQ" target="_blank">video:</a> Building the “Reachspace Database”: a large-scale stimulus set of reachable environments. <span class="lightWeight"> Josephs, Zhao, & Konkle.</span></li> -->
+          <li><a href="https://www.youtube.com/watch?v=irRChCG9h_4" target="_blank">video:</a> Foveation induces Robustness to Scene Occlusion in Deep Neural Networks.<span class="lightWeight"> Deza & Konkle.</span></li>
+        </ul>
+
+      </span>
+    </div>
+    <div class="researchImgDiv col-sm-12 col-md-6">
+      <!-- <img class="researchImg" src="ResearchImages/vss2021icons.png"> 
+      <img class="researchImg" src="ResearchImages/vss2020icons2.png"> </div> -->
+      <img class="researchImg" src="ResearchImages/vss2020-2021.png"> </div>
+  </div>
+
+  <div class="tkheading"> Recent Talks: </div>
+  <div class="line"></div>
+
+    <div class="researchCard">
+        <div class="researchBlurb col-sm-12 col-md-6">
+
+            <a href="https://www.youtube.com/watch?v=8_ijriSSTG0&&t=23s" target="_blank">Video:</a> <b>Why is that there? Feature mapping across the visual cortex</b>
+            <br>Cognitive Computational Neuroscience Keynote. Sept 13-16, 2019.</p>
+
+            <br><br><a href="https://www.youtube.com/watch?v=lKflD1-Ogxs" target="_blank">Video:</a> <b>What do deep neural networks tell us about object representation?</b>
+            <br>Cognitive Neuroscience Society. March 13-16, 2021.</p>
+
+            <br><br><a href="https://www.youtube.com/watch?v=fJLoRTwQyx0" target="_blank">Video:</a> <b>Content Channeling along the Ventral Visual Stream</b>
+            <br>National Academy of Sciences Colloquium. May 1-3, 2019.</p>
+
+          </div>
+      <div class="researchImgDiv col-sm-12 col-md-6">
+        <img class="researchImg" src="ResearchImages/talk_ccn_2019.png">
+
+        </div>
+    </div>
+
+
+
+  <div class="tkheading"> Key Findings: </div>
+  <div class="line"></div>
+
+
+
+  <div class="researchCard">
+    <div class="researchBlurb col-sm-12 col-md-6">
+      <b>Organizing dimensions of occipitotemporal cortex</b>
+      <br><br>	Occipitotemporal cortex has strong object-centered responses. However, there is no widely accepted model of the coding dimensions of objects, nor how this high-dimensional domain is mapped onto the cortical sheet. How do you parameterize objects?
+      <br><br>We have found that the real-world size of objects is a fundamental dimension that has a large-scale organization across the cortical surface, and shows an interleaved organization with the dimension of animacy. This work demonstrates object-responsive cortex is not a heterogeneous bank of features but has a systematic organization at a macro-scale.
+      <span class="researchRef">
+        <br><br><a class="trackPubLink" href="Papers/Konkle_2012_Neuron.pdf" target="_blank">A Real-World Size Organization of Object Responses in Occipito-Temporal Cortex.</a>  Konkle & Oliva. <i>Neuron</i>, 2012.
+        <br><br><a class="trackPubLink" href="Papers/Konkle_2013_JNeuro.pdf" target="_blank"> Tripartite Organization of the Ventral Stream by Animacy and Object Size.</a>  Konkle & Caramazza. <i>Journal of Neuroscience</i>, 2013.
+        <br><br><a class="trackPubLink" href="Papers/Konkle_2016_CerebCortex.pdf" target="_blank"> The large-scale organization of object-responsive cortex is reflected in resting-state network architecture.</a>  Konkle & Caramazza. <i>Cerebral Cortex</i>, 2016.
+
+      </span>
+    </div>
+    <div class="researchImgDiv col-sm-12 col-md-6"><img class="researchImg" src="ResearchImages/multiscale3.png"> </div>
+  </div>
+
+  <div class="line"></div>
+
+  <div class="researchCard">
+    <div class="researchBlurb col-sm-12 col-md-6">
+      <b> Evidence for <i>perceptual</i> differences underlying </i>categorical</i> distinctions</b>
+
+      <br><br> Apples look like other apples, oranges look like other oranges, but do small objects look like other small objects?
+      Because there are so many kinds of small objects (e.g., cups, keys), is is often assumed that there are not reliable perceptual features that distinguish them from big objects (e.g., cars, tables)?
+
+      <br><br> However, we have found that there are mid-level shape differences that capture broad conceptual distinctions like real-world size and animacy. 
+      Further, a substantial portion of ventral stream organization can be accounted for by these differences in coarse texture and form information, without requiring explicit recognition of intact objects.
+
+      <br><br>Broadly, this line of work explores the idea that there is an extensive perceptual representational space which supports downstream processes like categorization and conceptual processing. 
+
+      <br>
+      <span class="researchRef">
+        <br><br><a class="trackPubLink" href="Papers/Long_2016_JEPG.pdf" target="_blank">Mid-level perceptual features distinguish objects of different real-world sizes.</a> Long, Konkle, & Alvarez (2016) JEP:General.
+        <br><br><a class="trackPubLink" href="Papers/Long_2017_Cognition.pdf" target="_blank">A familiar-size Stroop effect in the absence of basic-level recognition.</a> Long, & Konkle (2017) Cognition.
+        <br><br><a class="trackPubLink" href="Papers/Long_2018_PNAS.pdf" target="_blank">Mid-level visual features underlie the high-level categorical organization of the ventral stream. </a>Long & Konkle (2018). PNAS.
+
+      </span>
+      <br><br>For this line of work, we developed a new stimulus class we called "texforms". Read more about them here <a href="https://www.brialong.com/all-about-texforms" target="_blank">(Texform FAQ)</a>,
+      with code to generate them here <a href="https://github.com/brialorelle/texformgen", target="_blank">(GitHub Repo)</a>.
+      <br>
+
+    </div>
+    <div class="researchImgDiv col-sm-12 col-md-6"><img class="researchImg" src="ResearchImages/sizemetamer.png"> </div>
+    <div class="researchImgDiv col-sm-12 col-md-6"><img class="researchImg" src="ResearchImages/astexformfmri.png"> </div>
+  </div>
+
+  <div class="line"></div>
+
+  <div class="researchCard">
+    <div class="researchBlurb col-sm-12 col-md-6">
+      <b> Mapping the reachable world</b>
+
+      <br><br> While there are clear distinctions between objects and scenes, what about the intermediate-scale space in between?
+      
+      <br><br> Neurally, we found that images of "reachspaces" activate a distinct large-scale topographic representation from both close-up object views and navigable-scale scene views. 
+      Behaviorally, we found that perceptual similarity computations dissociate reachspace images from both object and navigable-scale scene images.
+      
+      <br><br>To facilitate this research we have created the <a href="https://www.reachspacedatabase.com/" target="_blank">Reachspace Database</a>: a new image database of over >10k high-quality images.
+
+      <span class="researchRef">
+        <br><br><a class="trackPubLink" href="Papers/Josephs_2020_PNAS.pdf" target="_blank">Large-scale dissociations between views of objects, scenes, and reachable-scale environments in visual cortex.</a> Josephs & Konkle, T. (2020) PNAS.
+        <br><br><a class="trackPubLink" href="https://psyarxiv.com/u7twb" target="_blank">Emergent dimensions underlying human understanding of the reachable world.</a> Josephs, Hebart, & Konkle, T. (2021) PsyArXiv.
+        <br><br><a class="trackPubLink" href="Papers/Josephs_2019_JEPHPP.pdf" target="_blank">Perceptual dissociations among views of objects, scenes, and reachable spaces.</a> Josephs & Konkle (2019). JEP:HPP.
+        <br><br><a class="trackPubLink" href="Papers/Josephs_2021_JOV.pdf" target="_blank">The world within reach: an image database of reach-relevant environments. </a>Josephs, Zhao,  & Konkle (2021) Journal of Vision
+
+      </span>
+
+    </div>
+    <div class="researchImgDiv col-sm-12 col-md-6"><img class="researchImg" src="ResearchImages/reachspaces.png"> </div>
+  </div>
+
+  <div class="line"></div>
+
+  <div class="researchCard">
+    <div class="researchBlurb col-sm-12 col-md-6">
+      <b> En route to action understanding</b>
+
+      <br><br> Recognizing actions and inferring intentions and goals are essential capacities for navigating the social world. What are the perceptual precursors to more abstract action representation?
+      
+      <br><br> We found evidence for five large-scale networks underlying visual action perception: one related to social aspects of an action, and four related to the scale of the “interaction envelope”, ranging from fine-scale manipulations directed at objects, to large-scale whole-body movements directed at distant locations.
+      behavioral assays into action representation revealed converging insights: actions are intuitively considered similar based on the agent’s goals, but the visual brain responses reflect the similarity of body configurations.
+      Broadly, this work begins to articulate the visual representation en route to understanding the actions of others around us.
+
+      <span class="researchRef">
+        <br><br><a class="trackPubLink" href="Papers/Tarhan_2020_NatComm.pdf" target="_blank">Sociality and Interaction Envelope Organize Visual Action Representations.</a> Tarhan, & Konkle (2020) Nature Communications.
+        <br><br><a class="trackPubLink" href="Papers/Tarhan_2021_Neuropsychologia.pdf" target="_blank">Behavioral and Neural Representations en route to Intuitive Action Understanding.</a> Tarhan, De Freitas, & Konkle (2021) bioRxiv.
+        <br><br><a class="trackPubLink" href="Papers/Tarhan_2020_NeuroImage.pdf" target="_blank">Reliability-Based Voxel Selection. </a>Tarhan & Konkle (2020). NeuroImage.
+
+      </span>
+
+    </div>
+    <div class="researchImgDiv col-sm-12 col-md-6"><img class="researchImg" src="ResearchImages/actionorg.png"> </div>
+  </div>
+
+  <div class="line"></div>
+
+
+
+  <div class="researchCard">
+    <div class="researchBlurb col-sm-12 col-md-6">
+      <b>Links between neural organization and perceptual similarity computations</b>
+      <br><br>The human visual system is built to efficiently extract and encode the structure of the natural world, transforming information from early sensory formats into increasingly abstract representations that support our behavioral capacities.
+      <br><br> In a series of studies, we probed the links between neural responses and a variety of visual behavioral measures, including visual search, visual masking, and visual working memory.
+      This line of work points to the overarching result that there is a common representational structure across all of high-level visual cortex that underlies our ability to process object categories.
+
+      <br><br>
+      <span class="researchRef">
+        <a class="trackPubLink" href="Papers/Cohen_2014_PNAS.pdf" target="_blank">Processing multiple visual objects is limited by overlap in neural channels. </a>Cohen, Konkle,  Nakayama, Alvarez. <i>PNAS</i>, 2014.
+        <br><br><a class="trackPubLink" href="Papers/Cohen_2015_JOCN.pdf" target="_blank">Visual awareness is constrained by the representational architecture of the visual system.</a> Cohen, Konkle,  Nakayama, Alvarez. <i>Journal of Cognitive Neuroscience</i>, 2015
+        <br><br><a class="trackPubLink" href="Papers/Cohen_2017_JNeuroPhys.pdf" target="_blank">Visual search for object categories is predicted by the representational architecture of high-level visual cortex.</a> Cohen, Nakayama, Alvarez, & Konkle. <i>Journal of Neurophysiology</i>, 2017.
+      </span>
+
+
+    </div>
+    <div class="researchImgDiv col-sm-12 col-md-6"><img class="researchImg" src="ResearchImages/searchcomp.png"> </div>
+  </div>
+  <div class="line"></div>
+
+
+  <div class="researchCard">
+    <div class="researchBlurb col-sm-12 col-md-6">
+      <b>The real-world size of objects is a key property of internal object representations </b>
+      <br><br>
+      One insight into the nature of object representation is to consider that objects
+      are physical entities in a 3-dimensional world. This geometry places places important constraints on how people experience and interact with objects of different sizes.
+      <br><br>
+      In a series of behavioral studies, we found that the real-world size of objects is a basic component of object representation.
+      Just as objects have a canonical perspective, we showed they also have a canonical visual size (proportional to the log of their real-world size).
+      Further, size-knowledge is automatically activated when an object is recognized.
+      <br><br>
+      Finally, we are exploring how this property of object representations emerges in development. We found found that by the pre-school years, kids are sensitive to the perceptual differences between big and small objects, and automatically activate real-world size information in a size-stroop task.
+      <br><br>
+      <span class="researchRef">
+        <a class="trackPubLink" href="Papers/Konkle_2011_JEPHPP.pdf" target="_blank">Canonical visual size for real-world objects. </a><br>Konkle & Oliva. <i>Journal of Experimental Psychology: Human Perception and Performance,</i> 2011.
+        <br><br><a class="trackPubLink" href="Papers/Konkle_2012_JEPHPP.pdf" target="_blank">A Familiar Size Stroop Effect: Real-world size is an automatic property of object representation. </a><br> Konkle & Oliva. <i>Journal of Experimental Psychology: Human Perception and Performance,</i> 2012.
+        <br><br><a class="trackPubLink" href="https://psyarxiv.com/v39jm/" target="_blank">Real-world size is automatically encoded in preschoolers’ object representations. </a><br> Long, Moher, Carey, &  Konkle. <i>PsyRxiv</i>.
+        <br><br><a class="trackPubLink" href="Posters/Long_2015_SRCD.pdf" target="_blank">Animacy and object size are reflected in perceptual similarity computations by the preschool years. </a><br> Long, Moher, Carey, &  Konkle. <i>SRCD</i>.
+      </span>
+
+    </div>
+    <div class="researchImgDiv col-sm-12 col-md-6"><img class="researchImg" src="ResearchImages/canonsize2.png"> </div>
+    <div class="researchImgDiv col-sm-12 col-md-6"><img class="researchImg" src="ResearchImages/kidstroop.png"> </div>
+  </div>
+
+  <div class="line"></div>
+
+
+
+  <div class="researchCard">
+    <div class="researchBlurb col-sm-12 col-md-6">
+      <b>How much can we remember about what we see? </b>
+      <br><br>
+      Another way we investigate the nature of high-level visual representations
+      by understanding how and what we store about them in memory.
+
+      <br><br> We discovered that people are capable of remembering
+      thousands of visually-presented objects and scenes with much more detail than previously believed.
+      This remarkable capacity for retaining highly-detailed memory traces relies on our existing conceptual knowledge:
+      the more we know about the different kinds of objects, the less they interfere in memory.
+
+      <br><br> The thesis emerging from this research is that one cannot fully understand memory capacity or memory processes
+      without also determining the nature of representations over which they operate.
+
+      <br><br>
+      <i>Selected Publications:</i><br>
+      <span class="researchRef">
+        <a class="trackPubLink" href="PAPERS/Brady_2008_PNAS.pdf" target="_blank"> Visual long-term memory has a massive capacity for object details. </a><br> Brady, Konkle, Alvarez, & Oliva. <i>PNAS</i> 2008.
+        <br><br><a class="trackPubLink" href = "PAPERS/Konkle_2010_JEPG.pdf" target="_blank"> Conceptual knowledge supports perceptual detail in visual long-term memory. </a><br> Konkle, Brady, Alvarez, & Oliva. <i>Journal of Experimental Psychology: General,</i> 2010.
+        <br><br><a class="trackPubLink" href = "PAPERS/Konkle_2010_PsychSci.pdf" target="_blank">Scene memory is more detailed than you think: the role of scene categories in visual long-term memory.</a><br> Konkle, Brady, Alvarez, & Oliva. <i>Psychological Science,</i> 2010.
+        <!-- 			<br><br><a class="boldHelper" onClick="javascript:urchinTracker('PAPERS/Brady_2013_PsychSci.pdf');" href=PAPERS/Brady_2013_PsychSci.pdf> Long-term memory has the same limit on fidelity as working memory. </a><br> Brady, Konkle, Gill, Oliva, & Alvarez.  <i> Psychological Science,</i> 2013. -->
+        <br><br><a class="trackPubLink" href="PAPERS/Brady_2009_JEPG.pdf" target="_blank">Compression in visual short-term memory: using statistical regularities to form more efficient memory representations.</a><br> Brady, Konkle, & Alvarez. <i>Journal of Experimental Psychology: General,</i> 2009.
+        <br><br><br><i>Review:</i>
+        <br><a class="trackPubLink" href="PAPERS/Brady_2011_JOV.pdf" target="_blank">A review of visual memory capacity: Beyond individual items and toward structured representations.</a><br> Brady, Konkle, & Alvarez. <i>Journal of Vision</i>, 2011.
+      </span>
+    </div>
+    <div class="researchImgDiv col-sm-12 col-md-6"><img class="researchImg" src="ResearchImages/mm2.png"> </div>
+  </div>
+  <!-- <div class="line"></div> -->
+
+
+</div>
+
+<!-- ==================== people ==================== -->
+<div class="container tksidePadding tkbottomPadding tkpage" id="peoplePage">
+  <div class="row">
+    <div class="col-xs-12 peopleHeading tkheading"> current members: </div>
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Konkle.jpg">
+      <div class="personName">Talia Konkle </div>
+      <div class="personRole">Principal Investigator</div>
+      <div class="personInfo">
+        <a class="trackClick" data="CV" href="CV/Konkle_CurriculumVitae.pdf" target="_blank"> cv </a>
+        . <a href="mailto:tkonkle@fas.harvard.edu">email</a>
+        . <a class="trackClick" data="GoogleScholarLink" href="http://scholar.google.com/citations?user=QxV9vroAAAAJ&hl=en" target="_blank"> google scholar   </a>
+      </div>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Janini.jpg">
+      <div class="personName"> Daniel Janini </div>
+      <div class="personRole">Graduate Student</div>
+      <div class="personInfo">
+        <a href="mailto:daniel_janini@g.harvard.edu">email</a>
+        . <a href="https://janinidp.wixsite.com/janini" target="_blank"> website</a>
+      </div>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Doshi.png">
+      <div class="personName"> Fenil Doshi </div>
+      <div class="personRole">Graduate Student</div>
+      <div class="personInfo">
+        <a href="#">email</a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Prince.jpg">
+      <div class="personName"> Jacob Prince </div>
+      <div class="personRole">Research Fellow</div>
+      <div class="personInfo">
+        <a href="mailto:jacob.prince@yale.edu">email</a>
+      </div>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Park.png">
+      <div class="personName"> Jeongho Park </div>
+      <div class="personRole">Postdoctoral fellow</div>
+      <div class="personInfo">
+        <a href="mailto:jpark203@jhu.edu">email</a>
+        . <a href="https://p9j8h7.wixsite.com/jeonghopark"> website</a>
+      </div>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Wang.jpg">
+      <div class="personName"> Ruosi Wang </div>
+      <div class="personRole"> Postdoctoral fellow</div>
+      <div class="personInfo">
+        <a href="mailto:ruosi925@gmail.com">email</a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Obeid.jpg">
+      <div class="personName"> Dina Obeid </div>
+      <div class="personRole">Postdoctoral fellow</div>
+      <div class="personInfo">
+        <a href="mailto:dinaobeid@g.harvard.edu">email</a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Vinken.jpg">
+      <div class="personName"> Kasper Vinken </div>
+      <div class="personRole">Postdoctoral fellow</div>
+      <div class="personInfo">
+        <a href="mailto:kaspervinken@gmail.com ">email</a>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="row">
+
+
+
+  <div class="row">
+
+    <div class="col-xs-12 peopleHeading tkheading"> lab alumni: </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Josephs.jpg">
+      <div class="personName">Emilie Josephs </div>
+      <div class="personRole">Graduate Student</div>
+      <div class="personInfo">
+        <a href="mailto:emilie.josephs.1@gmail.com">email</a>
+        . <a href="http://emiliejosephs.com" target="_blank"> website</a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Tarhan.jpg">
+      <div class="personName">Leyla Tarhan </div>
+      <div class="personRole">Graduate Student</div>
+      <div class="personInfo">
+        <a href="mailto:lytarhan@gmail.com">email</a>
+        . <a href="http://lytarhan.rbind.io/" target="_blank"> website</a>
+      </div>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Kallmayer.jpg">
+      <div class="personName"> Aylin Kallmayer </div>
+      <div class="personRole">Research Fellow</div>
+      <div class="personInfo">
+        <a href="mailto:akallmayer@hotmail.de">email</a>
+      </div>
+    </div>
+
+
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Magri.jpg">
+      <div class="personName"> Caterina Magri </div>
+      <div class="personRole">Graduate Student</div>
+      <div class="personInfo">
+        <a href="mailto:cmagri@fas.harvard.edu">email</a>
+        . <a href="https://catmagri.wixsite.com/caterinamagri" target="_blank"> website</a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Deza.png">
+      <div class="personName"> Arturo Deza</div>
+      <div class="personRole">Post-Doc</div>
+      <div class="personInfo">
+        <a href="mailto:arturodeza@gmail.com">email</a>
+        <a href="http://arturodeza.wikidot.com/"> website</a>
+      </div>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+      <img class="personPic" src="People/Long.jpg">
+      <div class="personName"> Bria Long </div>
+      <div class="personRole"> Graduate Student</div>
+      <div class="personInfo">
+        <a href="mailto:brialong@fas.harvard.edu ">email</a>
+        . <a href = "http://www.brialong.com/"> website </a>
+      </div>
+    </div>
+
+    <!-- <div class="col-xs-12 col-sm-4 col-md-3 personCard">
+    <img class="personPic" src="People/Taylor.jpg">
+    <div class="personName"> Johnmark Taylor </div>
+    <div class="personRole">Graduate Student</div>
+    <div class="personInfo">
+    <a href="mailto:johnmarktaylor@g.harvard.edu">email</a>
+    <a href="http://johnmarktaylor.com/"> website</a>
+
+  </div>
+</div> -->
+
+<div class="col-xs-12 col-sm-4 col-md-3 personCard">
+  <img class="personPic" src="People/Chiou.jpg">
+  <div class="personName"> Rocco Chiou </div>
+  <div class="personRole">Visiting Scholar</div>
+  <div class="personInfo">
+    <a href="mailto:roccochiou@gmail.com">email</a>
+    . <a href="https://roccochiou.weebly.com/"  target="_blank"> website</a>
+  </div>
+</div>
+
+
+
+<div class="col-xs-12 col-sm-4 col-md-3 personCard">
+  <img class="personPic" src="People/Yu.jpg">
+  <div class="personName">Chen-Ping Yu </div>
+  <div class="personRole">Post-doc</div>
+  <div class="personInfo">
+    <a href="mailto:ccxy7452@gmail.com">email</a>
+    . <a href = "http://www.chenpingyu.org"> website </a>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-3 personCard">
+  <img class="personPic" src="People/Chen.jpg">
+  <div class="personName">Xiuye Chen </div>
+  <div class="personRole">Data Scientist / Post-Doc</div>
+  <div class="personInfo">
+    <a href="mailto:chen42@fas.harvard.edu">email</a>
+    . <a href = "http://scholar.harvard.edu/chen" target="_blank"> website </a>
+  </div>
+</div>
+
+<div class="col-xs-12 col-sm-4 col-md-3 personCard">
+  <img class="personPic" src="People/Arfaei.jpg">
+  <div class="personName">Nastaran Arfaei</div>
+  <div class="personRole">Research Fellow</div>
+  <div class="personInfo">
+    <a href="mailto:n.arfaei@gmail.com">email</a>
+  </div>
+</div>
+
+<div class="col-xs-12 col-sm-4 col-md-3 personCard">
+  <img class="personPic" src="People/Cohen.jpg">
+  <div class="personName">Michael Cohen</div>
+  <div class="personRole">Graduate Student</div>
+  <div class="personInfo">
+    <a href="mailto:n.arfaei@gmail.com">email</a>
+    . <a href = "https://michaelacohen.weebly.com/" target="_blank"> website </a>
+  </div>
+</div>
+
+<div class="col-xs-12 col-sm-4 col-md-3 personCard">
+  <img class="personPic" src="People/Gallagher.jpg">
+  <div class="personName"> Katherine Gallagher </div>
+  <div class="personRole">Research Scientist</div>
+  <div class="personInfo">
+    <a href="mailto:katherinegallagher@fas.harvard.edu">email</a>
+    <!-- . <a href="#"> website</a> -->
+  </div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+
+<!-- ==================== publications ====================-->
+<div class="container tksidePadding tkbottomPadding tkpage" id="pubsPage">
+
+  <div class="pubHeading tkheading"> PREPRINTS </div>
+
+ 
+  <div class="pubCard">
+    <a class="pubTitle" href="https://www.biorxiv.org/content/10.1101/2020.06.15.153247v3" target="_blank">A self-supervised domain-general learning framework for human ventral stream representation</a>
+    <div class="pubAuthor">Konkle, T. & Alvarez, G. A. (2021) <span class="pubJournal">bioRxiv. (forthcoming at Nature Communications).</span></div> 
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="https://www.biorxiv.org/content/10.1101/2021.01.05.425426v1" target="_blank">Emergent organization of multiple visuotopic maps without a feature hierarchy </a>
+    <div class="pubAuthor">Konkle, T. (2021) <span class="pubJournal">bioRxiv.</span> 
+      <a href="https://twitter.com/talia_konkle/status/1346825838717788165" target="_blank">[tweet-thread]</a></div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="https://openreview.net/pdf?id=i_xiyGq6FNT" target="_blank">What can 5.17 billion regression fits tell us about artificial models of the human visual system? </a>
+    <div class="pubAuthor">Conwell, C., Prince, J., Alvarez, G., & Konkle, T. <span class="pubJournal">Shared Visual Representation between Humans and Machines workshop, NeurIPS 2021.</span> <br>
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="https://www.biorxiv.org/content/10.1101/2022.01.12.475180v1.full" target="_blank">Mid-level feature differences underlie early animacy and object size distinctions: Evidence from EEG decoding</a>
+    <div class="pubAuthor">Wang, R., Janini, D., & Konkle, T. (2022) <span class="pubJournal">bioRxiv.</span></div> 
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="https://www.biorxiv.org/content/10.1101/2022.01.06.475244v1.full" target="_blank">Ramp-shaped neural tuning supports graded population-level representation of the object-to-scene continuum</a>
+    <div class="pubAuthor">Park, J., Josephs, E, & Konkle, T. (2022) <span class="pubJournal">bioRxiv.</span></div> 
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="https://psyarxiv.com/u7twb" target="_blank"> Dimensions underlying human understanding of the reachable world.</a>
+    <div class="pubAuthor">Josephs, E., Hebart, M., & Konkle, T. (2021) <span class="pubJournal">psyRxiv.</span> 
+    <a href="https://twitter.com/emiliejosephs/status/1467883048968486912" target="_blank">[tweet-thread]</a></div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="https://www.biorxiv.org/content/10.1101/2021.04.21.440772v1" target="_blank">General object-based features account for letter perception better than specialized letter features </a>
+    <div class="pubAuthor">Janini, D., Hamblin, C., Deza, A., & Konkle, T. (2021) <span class="pubJournal">biorxiv.</span> 
+      <a href="https://twitter.com/DanJanini/status/1385303554261409803" target="_blank">[tweet-thread]</a></div>
+  </div>
+
+
+  <div class="pubCard">
+    <a class="pubTitle" href="https://psyarxiv.com/84exs" target="_blank"> Systematic transition from boundary extension to contraction along an object-to-scene continuum </a>
+    <div class="pubAuthor">Park, J., Josephs, E., & Konkle, T. (2021) <span class="pubJournal">psyRxiv.</span> 
+    <a href="https://twitter.com/jeongho__park/status/1354277980995006465" target="_blank">[tweet-thread]</a></div>
+  </div>
+
+    <div class="pubCard">
+      <a class="pubTitle" href="#" target="_blank">How big should this object be? Perceptual influences on viewing-size preferences. </a>
+      <div class="pubAuthor">Chen, Y-C., Deza, A. & Konkle, T. (2021) <span class="pubJournal">psyRxiv.</span> 
+      <a href="#" target="_blank">[tweet-thread]</a></div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="https://arxiv.org/abs/2006.07991" target="_blank">Properties of Foveated Perceptual Systems </a>
+    <div class="pubAuthor">Deza, A. & Konkle, T. (2020) <span class="pubJournal">arXiv.</span></div>
+  </div>
+
+<div class="pubHeading tkheading"> PUBLICATIONS </div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Tarhan_2021_Neuropsychologia.pdf" target="_blank">Behavioral and Neural Representations en route to Intuitive Action Understanding </a>
+  <div class="pubAuthor">Tarhan, L., De Freitas, J., & Konkle, T. (2021) <span class="pubJournal">Neuropsychologia.</span><br>
+</div>
+
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Josephs_2021_JOV.pdf" target="_blank">The world within reach: an image database of reach-relevant environments. </a>
+  <div class="pubAuthor">Josephs, E., Zhao, M., & Konkle, T. (2021) <span class="pubJournal">Journal of Vision.</span> 
+    <a href="https://www.reachspacedatabase.com/" target="_blank">[database site]</a> | <a href="https://twitter.com/emiliejosephs/status/1382708080438353921" target="_blank">[tweet-thread]</a></div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Magri_2021_Neuroimage" target="_blank">The contribution of object size, manipulability, and stability on neural responses to inanimate objects. </a>
+  <div class="pubAuthor">Magri, C., Konkle, T., & Caramazza, A. (2020) <span class="pubJournal">Neuroimage.</span> <a href="https://twitter.com/catmag29/status/1330915508204527625" target="_blank">[tweet-thread]</a></div>
+</div>
+
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Josephs_2020_PNAS.pdf" target="_blank">Large-scale dissociations between views of objects, scenes, and reachable-scale environments in visual cortex. </a>
+  <div class="pubAuthor">Josephs, E., & Konkle, T. (2020) <span class="pubJournal">Proceedings of the National Academy of Sciences.</span></div>
+</div>
+
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Tarhan_2020_NatComm.pdf" target="_blank">Sociality and Interaction Envelope Organize Visual Action Representations. </a>
+  <div class="pubAuthor">Tarhan, L., & Konkle, T. (2020) <span class="pubJournal">Nature Communications, </span>11:3002. <a href="https://osf.io/uvbg7/" target="_blank"> Open Science Repository </a> </div>
+</div>
+
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Tarhan_2020_NeuroImage.pdf" target="_blank">Reliability-Based Voxel Selection. </a>
+  <div class="pubAuthor">Tarhan, L., & Konkle, T. (2020). <span class="pubJournal">NeuroImage, </span>207, 116350. <a href="https://osf.io/m9ykh/" target="_blank"> Open Science Repository </a> | <a href="http://lytarhan.rbind.io/post/rbvs-faq/rbvs-faq/" target="_blank" > FAQ </a></div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Long_2019_VisCog.pdf" target="_blank">Animacy and object size are reflected in perceptual similarity computations by the preschool years. </a>
+  <div class="pubAuthor">Long, B., Moher, M., Carey, S. E., & Konkle, T. (2019)
+    <span class="pubJournal">Visual Cognition </span>, 27 (5-8), 435-451.
+    <a href="https://osf.io/d5uzg/" target="_blank"> Open Science Repository</a>
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Janini_2019_NatHumBeh.pdf" target="_blank">A Pokemon-sized window into the human brain. </a>
+  <div class="pubAuthor">Janini, D., & Konkle, T. (2019)
+    <span class="pubJournal">Nature Human Behavior: News and Views.</span>
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Josephs_2019_JEPHPP.pdf" target="_blank">Perceptual dissociations among views of objects, scenes, and reachable spaces. </a>
+  <div class="pubAuthor">Josephs, E., & Konkle, T. (2019).
+    <span class="pubJournal">Journal of Experimental Psychology: Human Perception and Performance.</span>
+  </div>
+</div>
+
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Long_2019_JEPHPP.pdf" target="_blank">Real-world size is automatically encoded in preschoolers’ object representations. </a>
+  <div class="pubAuthor">Long, B., Mariko, M., Carey, S., Konkle, T. (2019).
+    <span class="pubJournal">Journal of Experimental Psychology: Human Perception and Performance.</span>
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Long_2018_PNAS.pdf" target="_blank">Mid-level visual features underlie the high-level categorical organization of the ventral stream.</a>
+  <div class="pubAuthor">Long, B., & Konkle, T. (2018).
+    <span class="pubJournal">Proceedings of the National Academy of Sciences</span>.
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Long_2017_Cognition.pdf" target="_blank">A familiar-size Stroop effect in the absence of basic-level recognition.</a>
+  <div class="pubAuthor">Long, B., & Konkle, T. (2017).
+    <span class="pubJournal">Cognition,</span> 168, 234-242.
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Cohen_2017_JNeuroPhys.pdf" target="_blank">Visual search for object categories is predicted by the representational architecture of high-level visual cortex. </a>
+  <div class="pubAuthor">Cohen, M., Nakayama, K., Alvarez, G. A. & Konkle, T. (2017).
+    <span class="pubJournal">Journal of Neurophysiology</span>, 117 (1), 388-402.
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Konkle_2016_CerebCortex.pdf" target="_blank">The large-scale organization of object-responsive cortex is reflected in resting-state network architecture.</a>
+  <div class="pubAuthor">Konkle, T., & Caramazza, A. (2016).
+    <span class="pubJournal">Cerebral Cortex.</span> 1-13.
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Long_2016_JEPG.pdf" target="_blank">Mid-level perceptual features distinguish objects of different real-world sizes.</a>
+  <div class="pubAuthor">Long, B., Konkle, T., Cohen, M., & Alvarez, G. A. (2016).
+    <span class="pubJournal">Journal of Experimental Psychology: General. </span>  145(1), 95-109. <a href="https://github.com/brialorelle/RealWorldSizeSearch" target="_blank"> (git hub) </a>
+  </div>
+</div>
+
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Cohen_2015_JOCN.pdf" target="_blank"> Visual awareness is constrained by the representational architecture of the visual system. </a>
+  <div class="pubAuthor"> Cohen, M., Konkle, T., Nakayama, K., & Alvarez, G. A. (2015).
+    <span class="pubJournal">Journal of Cognitive Neuroscience.</span> 27 (11), 2240-52.
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Park_2014_CerebCortex.pdf" target="_blank">Parametric Coding of the Size and Clutter of Natural Scenes in the Human Brain. </a>
+  <div class="pubAuthor"> Park, S. J., Konkle, T. & Oliva, A. (2015).
+    <span class="pubJournal">Cerebral Cortex, 25 (7), 1792-1805.</span>
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Cohen_2014_PNAS.pdf" target="_blank"> Processing multiple visual objects is limited by overlap in neural channels.</a>
+  <div class="pubAuthor"> Cohen, M., Konkle, T., Rhee, J., Nakayama, K., & Alvarez, G. A. (2014).
+    <span class="pubJournal">Proceedings of the National Academy of Sciences.</span>
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Konkle_2013_JNeuro.pdf" target="_blank">Tripartite Organization of the Ventral Stream by Animacy and Object Size. </a>
+  <div class="pubAuthor">Konkle, T., & Caramazza, A. (2013).
+    <span class="pubJournal">Journal of Neuroscience,</span> 33 (25), 10235-42.
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Brady_2013_JEPG.pdf" target="_blank"> Real-world objects are not represented as bound units: Independent forgetting of different object details from visual memory. </a>
+  <div class="pubAuthor">Brady, T. F., Konkle, T., Alvarez, G. A., & Oliva, A. (2013).
+    <span class="pubJournal">Journal of Experimental Psychology: General,</span> 142(3), 791-808.
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Brady_2013_PsychSci.pdf" target="_blank"> Long-term memory has the same limit on fidelity as working memory. </a>
+  <div class="pubAuthor">Brady, T. F., Konkle, T., Gill, J., Oliva, A., & Alvarez, G. A. (2013).
+    <span class="pubJournal">Psychological Science,</span> 24 (6), 981-990.
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Konkle_2012_Neuron.pdf" target="_blank">A real-world size organization of object responses in occipito-temporal cortex. </a>
+  <div class="pubAuthor">Konkle. T., & Oliva, A. (2012).
+    <span class="pubJournal">Neuron,</span> 74(6), 1114-24.
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Konkle_2012_JEPHPP.pdf" target="_blank">A Familiar Size Stroop Effect: Real-world size is an automatic property of object representation. </a>
+  <div class="pubAuthor">Konkle, T., & Oliva, A. (2012).
+    <span class="pubJournal">Journal of Experimental Psychology: Human Perception & Performance,</span> 38, 561-9.
+  </div>
+</div>
+
+<div class="pubCard">
+  <a class="pubTitle" href="Papers/Konkle_2011_JEPHPP.pdf" target="_blank">Canonical visual size for real-world objects. </a>
+  <div class="pubAuthor">Konkle, T. & Oliva, A. (2011).
+    <span class="pubJournal">Journal of Experimental Psychology: Human Perception & Performance,</span> 37(1):23-37.</div>
+  </div>
+</div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Brady_2011_JOV.pdf" target="_blank">A review of visual memory capacity: Beyond individual items and toward structured representations. </a>
+    <div class="pubAuthor">Brady, T. F., Konkle, T. & Alvarez, G. A. (2011).
+      <span class="pubJournal">Journal of Vision,</span> 11(5):4, 1-4.
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Konkle_2010_JEPG.pdf" target="_blank">Conceptual distinctiveness supports detailed visual long-term memory.</a>
+    <div class="pubAuthor">Konkle, T., Brady, T. F., Alvarez, G. A., & Oliva, A. (2010).
+      <span class="pubJournal">Journal of Experimental Psychology: General,</span> 139(3), 558-578.
+    </div>
+  </div>
+
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Oliva_2010_SpaceChapter.pdf" target="_blank">Representing, Perceiving and Remembering the Shape of Visual Space.  </a>
+    <div class="pubAuthor">Oliva, A., Park, S., & Konkle, T. (2010).
+      <span class="pubJournal"> Computational Vision in Neural and Machine Systems,</span> Cambridge University Press, edited by Laurence R Harris and Michael Jenkin.
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Konkle_2010_PsychSci.pdf" target="_blank">Scene memory is more detailed than you think: the role of scene categories in visual long-term memory.</a>
+    <div class="pubAuthor">Konkle, T., Brady, T. F., Alvarez, G. A., & Oliva, A. (2010).
+      <span class="pubJournal">Psychological Science,</span> 21(11), 1551-1556.
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Bedny_2010_CurBio.pdf" target="_blank">Sensitive period for a vision-dominated response in human MT/MST.</a>
+    <div class="pubAuthor">Bedny, M., Konkle, T., Pelphrey, K., Saxe, R., & Pascual-Leone, A.  (2010).
+      <span class="pubJournal">Current Biology,</span> 139(3), 20(21),1900-6.
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Brady_2009_JEPG.pdf" target="_blank">Compression in visual short-term memory: using statistical regularities to form more efficient memory representations.</a>
+    <div class="pubAuthor">Brady, T. F., Konkle, T., & Alvarez, G. A. (2009).
+      <span class="pubJournal">Journal of Experimental Psychology: General,</span> 138(4), 487-502.
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Konkle_2009_CIB.pdf" target="_blank">What can crossmodal aftereffects reveal about neural representation and dynamics?</a>
+    <div class="pubAuthor">Konkle, T. & Moore, C. I. (2009).
+      <span class="pubJournal">Communicative and Integrative Biology,</span> 2(6), 479-481.
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Konkle_2009_CurBio.pdf" target="_blank">Motion Aftereffects Transfer Between Touch and Vision.  </a>
+    <div class="pubAuthor">Konkle, T., Wang, Q., Hayward, V., & Moore, C. I.  (2009).
+      <span class="pubJournal">Current Biology,</span> 19, 745-750.
+    </div>
+  </div>
+
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Brady_2009_CIB.pdf" target="_blank">Detecting changes in real-world objects: The relationship between visual long-term memory and change blindness.  </a>
+    <div class="pubAuthor">Brady, T. F., Konkle, T., Oliva, A., & Alvarez, G. (2009).
+      <span class="pubJournal">Communicative and Integrative Biology,</span> 2:1, 1-3.
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Brady_2008_PNAS.pdf" target="_blank">Visual long-term memory has a massive storage capacity for object details.  </a>
+    <div class="pubAuthor">Brady, T. F., Konkle, T., Alvarez, G. A. & Oliva, A. (2008).
+      <span class="pubJournal">Proceedings of the National Academy of Sciences USA,</span>  105(38), 14325-9.
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Carter_2008_CurBio.pdf" target="_blank">Tactile Rivalry Demonstrated with an Ambiguous Apparent-Motion Quartet.  </a>
+    <div class="pubAuthor">Carter, O. L., Konkle, T., Wang, Q., Hayward, V., & Moore, C. I. (2008).
+      <span class="pubJournal">Current Biology,</span>  18(14), 1050-4.
+    </div>
+  </div>
+
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Konkle_2007_CogSci.pdf" target="_blank"> Normative representation of objects: Evidence for an ecological bias in perception and memory.  </a>
+    <div class="pubAuthor">Konkle, T., & Oliva, A. (2007). In D. S. McNamara & J. G. Trafton (Eds.), <span class="pubJournal"> Proceedings of the 29th Annual Cognitive Science Society,</span> (pp. 407-413), Austin, TX: Cognitive Science Society.
+    </div>
+  </div>
+
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Alvarez_2007_JOV.pdf" target="_blank">Searching in Dynamic Displays: Effects of configural predictability and spatio-temporal continuity.  </a>
+    <div class="pubAuthor">Alvarez, G. A., Konkle, T., & Oliva, A.  (2007).
+      <span class="pubJournal"> Journal of Vision,</span> (pp. 407-413)7(14):12, 1-12.
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Verstynen_2007_Neuropsychologia.pdf" target="_blank">Bilateral Pathways Do Not Predict Mirror Movements: A Case Report.  </a>
+    <div class="pubAuthor">Verstynen, T. D., Spencer, R., Stinear, C. M., Konkle, T., Diedrichsen, J., Byblow, W. D., Ivry, R. B. (2007).
+      <span class="pubJournal"> Neuropsychologia,</span> 45(4), 844-852.
+    </div>
+  </div>
+
+  <div class="pubCard">
+    <a class="pubTitle" href="Papers/Verstynen_2006_JNeuroPhys.pdf" target="_blank">Two types of TMS-induced Movement Variability After Stimulation of the Primary Motor Cortex.  </a>
+    <div class="pubAuthor">Verstynen, T. D., Konkle, T., & Ivry, R. B. (2006).
+      <span class="pubJournal"> Journal of Neurophysiology,</span>  96, 1018-1029.
+    </div>
+  </div>
+
+  <div style="height: 50px"></div>
+
+</div>
+
+<!-- ==================== imagesets ==================== -->
+<div class="container tksidePadding tkbottomPadding tkpage" id="imagesetsPage">
+  <div class="tkheading"> download stimulus sets: </div>
+
+
+    <!-- animacy size texforms -->
+    <div class="researchCard">
+      <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+        <img src="ImageSets/Icon-AnimSizeTexform.png" class="fullWidth">
+      </div>
+      <div class="col-sm-12 col-sm-7">
+        <b>Animacy x Size "Texforms"</b><br>
+        <a class="trackLink" href="ImageSets/AnimSizeTexform.zip">
+          <br>30 small animals, 30 big animals, 30 small objects, 30 big objects
+          <br> both in original and texform versions (.zip)
+        </a>
+        <br><br><span class="formatCitation"> Long & Konkle, 2018, PNAS.</span>
+      </div>
+    </div>
+
+    <!-- RSDB -->
+    <div class="researchCard">
+      <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+        <img src="ImageSets/icon-RSDB.png" class="fullWidth">
+      </div>
+      <div class="col-sm-12 col-sm-7">
+        <b>Reachspace Database</b><br>
+        <a class="trackLink" href="https://osf.io/s95rv/download">
+          <br>10,000+ images of reachable environments
+          <br> (4.4 GB Zipfile! ...may take some time to download)
+        </a>
+        <br><br>
+        Explore more at <a href="https://www.reachspacedatabase.com/explore" target="_blank"> ReachspaceDatabase.com</a>
+        <br><br><span class="formatCitation"> Josephs, Zhou, & Konkle, 2021, PsyArXiv.</span>
+      </div>
+    </div>
+
+    <!-- action videos -->
+    <div class="researchCard">
+      <div class="col-sm-12 col-sm-5 noLeftSidePadding" >
+        <img src="ImageSets/Icon-ActionVideos.png" class="fullWidth">
+      </div>
+      <div class="col-sm-12 col-sm-7">
+        <b>Action video clips</b><br>
+        <a class="trackLink" href="ImageSets/ActionVideos.zip">
+          <br>2 video sets of 60 everyday actions  (.zip)
+        </a>
+        <br><br><span class="formatCitation"> Tarhan & Konkle, 2020, Nature Communications.</span>
+      </div>
+    </div>
+
+
+      <!-- animacy size -->
+      <div class="researchCard">
+        <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+          <img src="ImageSets/Icon-AnimacySize.png" class="fullWidth">
+        </div>
+        <div class="col-sm-12 col-sm-7">
+          <b>Animacy x Size</b><br>
+          <a class="trackLink" href="ImageSets/AnimacySize.zip">
+            <br>60 small animals, 60 big animals,
+            <br>60 small objects, 60 big objects (.zip)
+          </a>
+          <br><br><span class="formatCitation"> Konkle & Caramazza, 2013, Journal of Neuroscience.</span>
+        </div>
+      </div>
+
+
+
+  <!-- objects reachspaces scenes -->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+      <img src="ImageSets/Icon-ObjRSScene.png" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>Reachspaces, Objects, and Scenes</b><br>
+      <a class="trackLink" href="ImageSets/ObjRSScene.zip">
+        <br>60 objects, 60 reachspaces, 60 scenes
+        <br> from 6 different semantic categories, divided into 2 sets
+      </a>
+      <br><br><span class="formatCitation"> Josephs & Konkle, 2020, PNAS.</span>
+    </div>
+  </div>
+
+  <!--  reachspaces probee -->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+      <img src="ImageSets/Icon-RSProbe.png" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>Reachspace Probe Set</b><br>
+      <a class="trackLink" href="ImageSets/RSProbe.zip">
+        <br> 280 images to probe reachspace representation,
+        <br> e.g. Reachspaces with background removed and objects in original or scrambled positions (balanced for retinotopic footprint), and more...
+      </a>
+      <br><br><span class="formatCitation"> Josephs & Konkle, 2020, PNAS.</span>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- big small -->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding" >
+      <img src="ImageSets/Icon-BigSmallObjects.png" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>Big and Small Objects</b><br>
+      <a class="trackLink" href="ImageSets/BigSmallObjects.zip">
+        <br>200 big objects, 200 small objects (.zip)
+      </a>
+      <br><br><span class="formatCitation"> Konkle & Oliva, 2012, Neuron.</span>
+    </div>
+  </div>
+
+
+
+
+  <!-- mm1 big set -->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+      <img src="ImageSets/Icon-MM1.png" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>"Massive Memory" Unique Object Images</b><br>
+      <a class="trackClick" data="ImageSets/MM1" href="http://olivalab.mit.edu/MM/downloads/ObjectsAll.zip">
+        <br>2400 object images from distinct categories (.zip)
+      </a>
+      <br><a class="trackClick" data="ImageSets/MM1-ExemplarPairs" href="http://olivalab.mit.edu/MM/downloads/Exemplar.zip">
+        200 pairs of objects, differing at the examplar level (.zip)
+      </a>
+      <br>
+      <a class="trackClick" data="ImageSets/MM1-StatePairs" href="http://olivalab.mit.edu/MM/downloads/State.zip">
+        200 pairs of objects, differing in their state or pose (.zip)
+      </a>
+      <br><br><span class="formatCitation"> Brady, Konkle, Alvarez, & Oliva, 2008, PNAS.</span>
+    </div>
+  </div>
+
+  <!-- mm2 object categories -->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+      <img src="ImageSets/Icon-objectCategs.jpg" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>"Massive Memory" Object Categories</b><br>
+      <br><a class="trackClick" data="ImageSets/MM2-ObjectCategories" href="http://olivalab.mit.edu/MM/archives/ObjectCategories.zip">
+        200 object categories with 17 exemplars each (.zip)
+      </a>
+      <br>
+      <a class="trackClick" data="ImageSets/MM2-Ranks.xls" href="http://olivalab.mit.edu/MM/downloads/MM2-Ranks.xls">
+        Perceptual & conceptual distinctiveness rankings (.xls)
+      </a>
+      <br>
+      <a class="trackClick" data="ImageSets/MM2-ObjectCategoriesExtra" href="http://olivalab.mit.edu/MM/archives/ObjectCategories2.zip">
+        240 more object categories with 1-16 examplars (.zip)
+      </a>
+      <br><br><span class="formatCitation"> Konkle, Brady, Alvarez, & Oliva, 2010, JEP:General.</span>
+    </div>
+  </div>
+
+  <!-- mm scenes -->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+      <img src="ImageSets/Icon-sceneCategs.jpg" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>"Massive Memory" Scene Categories</b><br>
+      <br><a class="trackClick" data="ImageSets/MMScenes" href="http://olivalab.mit.edu/MM/downloads/Scenes.zip">
+        128 Scene categories with 1-64 exemplars (.zip)
+      </a>
+      <br><br><span class="formatCitation"> Konkle, Brady, Alvarez, & Oliva, 2012, Psychological Science</span>
+    </div>
+  </div>
+
+
+    <!-- search comp -->
+    <div class="researchCard">
+      <div class="col-sm-12 col-sm-5 noLeftSidePadding" >
+        <img src="ImageSets/Icon-CompSearch.png" class="fullWidth">
+      </div>
+      <div class="col-sm-12 col-sm-7">
+        <b>8 "Classic" Categories</b><br>
+        <a class="trackLink" href="ImageSets/CompSearch.zip">
+          <br> 30 each of Bodies, Buildings, Cars, Cats,<br> Chairs, Faces, Hammers, Phones (.zip)
+        </a>
+        <br><br><span class="formatCitation"> Cohen et al., Journal of Neurophysiology. 2016.</span>
+      </div>
+    </div>
+
+  <!-- scene size clutter -->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+      <img src="ImageSets/Icon-volclut.png" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>Scene Size x Clutter Database</b><br>
+      <a class="trackLink" href="ImageSets/SceneSizeClutter_Park2014CerebCtx.zip">
+        <br>36 Scene categories (12 exemplars each)
+        <br>along 6 levels of size: small to large,
+        <br>and 6 levels of clutter: empty to full (.zip)
+      </a>
+      <br><br><span class="formatCitation"> Park, Konkle, & Oliva, 2015, Cerebral Cortex.</span>
+    </div>
+  </div>
+
+  <!-- scene size -->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+      <img src="ImageSets/Icon-scenedepth.png" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>Scene Categories by Size</b><br>
+      <a class="trackLink" href="ImageSets/SceneSize_Park2014CerebCtx.zip">
+        <br>Scene Categories by Size
+        <br>18 Scene categories (16 exemplars each)
+        <br>along 6 levels of size: small to large (.zip)
+      </a>
+      <br><br><span class="formatCitation"> Park, Konkle, & Oliva, 2015, Cerebral Cortex.</span>
+    </div>
+  </div>
+
+
+  <!-- object size range -->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+      <img src="ImageSets/Icon-ObjectSizeRange.png" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>Object Size Range</b><br>
+      <a class="trackLink" href="ImageSets/OBJECT100Database.zip">
+        <br>100 objects ranging in real-world size
+        <br>with corresponding size ranks (.zip)
+      </a>
+      <br><br><span class="formatCitation"> Konkle & Oliva, 2011, JEP:HPP.</span>
+    </div>
+  </div>
+
+
+  <!-- state-exemplar and state-color-->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+      <img src="ImageSets/Icon-SCSE.png" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>Object quartets: State x Exemplar and State x Color </b><br>
+      <a class="trackClick" data="ImageSets/StateExemplar" href="http://olivalab.mit.edu/MM/downloads/StateExemplar.zip">
+        100 sets of 2 states x 2 exemplars (.zip)
+      </a>
+      <br>
+      <a class="trackClick" data="ImageSets/StateColor" href="http://olivalab.mit.edu/MM/downloads/StateColor.zip">
+        100 sets of 2 states x 2 colors (.zip)
+      </a>
+      <br><br><span class="formatCitation"> Brady, Konkle, Oliva, & Alvarez, 2012, JEP:General.</span>
+    </div>
+  </div>
+
+
+  <!-- object stroop displays -->
+  <div class="researchCard">
+    <div class="col-sm-12 col-sm-5 noLeftSidePadding">
+      <img src="ImageSets/Icon-SizeStroop.png" class="fullWidth">
+    </div>
+    <div class="col-sm-12 col-sm-7">
+      <b>Object Size Stroop</b><br>
+      <a class="trackLink" href="ImageSets/SizeStroop_SampleDisplays.zip">
+        <br>Sample congruent and incongruent displays from two experiments (.zip)
+      </a>
+      <br><br><span class="formatCitation"> Konkle & Oliva, 2012, JEP:HPP.</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ==================== more ==================== -->
+<div class="container tksidePadding tkbottomPadding tkpage" id="morePage">
+
+
+<div class="tkheading"> Current Open Positions: </div>
+
+
+<div class="tkCard">
+
+  <b> GRADUATE STUDENT </b>
+  <br><br>A graduate student position is available starting in Fall of 2022.
+  To apply, please submit an application through the <a href = "https://grad.psychology.fas.harvard.edu/" target="_blank">Department of Psychology website</a>
+  and be sure to <b>indicate my name</b> in your application.
+
+  <br><br> For more general advice and information on the graduate application process here, check out the check out the department's <a href="https://psychology.fas.harvard.edu/pro-tip" target="_blank">Pro-Tip page</a>.
+
+  <br><br> If you're emailing me about your interest in applying, please mention you've visited and read this page! I'd appreciate it! :)  Also, I confess that for time management reasons, I do not meet with applicants before reviewing applications in early January and February.
+  But, you can still email to let me know you are applying (and I'll be sure to check that your application got properly routed to me when I review them!). 
+
+<!-- </div> -->
+
+  <br><br> 
+  To get to know us better, you can:<br>
+  Reach out to the lab alumni to learn more about the lab climate, my mentorship style, and my speedy-skills on our lab slack.
+  Watch one of my recent talks <a href='https://www.youtube.com/watch?v=8_ijriSSTG0&&t=23s' target="_blank">here</a> and check out the videos of our presentations at the Virtual Vision Science Society Conference (on the research tab!)
+  And, read one of our recent papers, e.g. <a href="https://www.biorxiv.org/content/10.1101/2020.06.15.153247v3" target="_blank">comparing human brain responses to representations learned by unsupervised deep neural networks</a>.
+  
+  <br><br>
+
+</div>
+
+
+<!-- <div class="tkCard">
+  <b>POST-DOCTORAL FELLOW</b>
+  <br>
+  <br> Research Leveraging Deep Neural Networks to Understand Human Visual Perception & Cognition
+  <br> Available now or any time in 2022
+  <br>
+
+  <br>Applications are invited for an NSF-funded postdoctoral fellowship under the direction of Professor George Alvarez in the Vision Sciences Laboratory, in the Department of Psychology at Harvard University. The postdoctoral fellow will conduct human behavioral research and use deep neural network models to understand human visual processing, with an emphasis on understanding human intuitive physical reasoning.
+  Further, you’ll have the opportunity to be a part of the broader Vision Sciences Lab (https://visionlab.harvard.edu/) working with a team of researchers at these interdisciplinary intersections, including Talia Konkle's lab.
+  <br>
+  <br>Please note that the following are not "requirements", but instead are qualifications that would make an applicant competitive for the position: 
+  <br>• Experience conducting research on human visual cognition (attention, memory, etc.), including both laboratory and web-based behavioral experiments
+  <br>• Experience developing computational models, particularly deep neural network models
+  <br>• Demonstrated ability to complete projects as evidenced by first-author publications or conference proceedings
+  <br>• Strong statistical, and coding skills (e.g., Python for deep neural network models, JavaScript for web-based experiments).
+  <br>• Excellent organizational, interpersonal, and communication skills.
+  <br>
+  <br>We assume that, depending on your background, you will have stronger expertise in a subset of these facets  (human visual cognition empirical work, developing computational models; statistical analysis and coding). In this position you will have the opportunity to deepen your expertise in the complementary areas.  In your application, please indicate where you see your strengths are (under qualifications below).  
+  <br>
+  <br><i>We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, gender identity, sexual orientation or any other characteristic protected by law.</i>  <br>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScgKyB_B8kG9iKPEYQnP_3anlimHKCCFL1OjorQklnvXw92VA/viewform" target="_blank">APPLY THROUGH THIS GOOGLE FORM</a>
+  <br>
+  <br>
+  <br>
+
+</div> -->
+
+  <!--
+  <div class="tkCard">
+
+  <b> LAB MANAGER - VISION SCIENCES LAB </b>
+  <br><br>
+  The Vision Sciences Lab in the Psychology Department at Harvard University seeks a part-time lab manager. Our team consists of four faculty members and a group of 10-20 scientists, and we study how the mind and brain process visual information (visionlab.harvard.edu).
+  The primary responsibilities for this position are to oversee the daily operations of the lab and to coordinate lab events. There will be opportunities to help conduct and learn about research, if interested.
+  <br><br>
+  This position will be approximately 15 hours per week; the exact days and times are flexible. Applicants should have a Bachelor’s degree, excellent computer skills (word processing, spreadsheets), organizational skills, and attention to detail.  Previous experience in administrative management is a plus.  Compensation is hourly, $20+, commensurate with experience.
+  <br><br>
+  Please submit a cover letter that describes your interest and qualifications for the position, as well as your resume (PDF files for both please) to sarahc@wjh.harvard.edu.
+  <br><br>
+
+</div>
+-->
+
+
+
+<div class="tkCard">
+  
+  -- <br><br>
+  My lab is part of the joint <b>Harvard Vision Sciences lab</b>, co-led with <a href="https://scorsese.wjh.harvard.edu/George/">Prof. George Alvarez</a>, and you can explore more about the broader Vision Lab <a href=https://visionlab.harvard.edu/>here</a>!
+  I value working hard but also maintaining a workable balance across the various life fronts. I am a mom of two wonderful daughters (age 4 and 6), and a cancer survivor.
+  As a lab, we value normalizing mistakes and learning from them, developing thoughtful and effective systems for doing science, and recognizing the value of many perspectives, from Reviewer #2, to those with different racial origins and ethnic backgrounds, gender orientations, and other identities.
+
+  <br><img class="col-xs-12 col-sm-8 frontTextBox" src="People/konklab.png">
+</div>
+
+
+</div>
+
+<!--
+
+<div class="tkCard">
+
+<b> POST-DOCTORAL FELLOW </b>
+<br><br>
+We are seeking candidates with strong technical/analytical skills and who have experience with machine learning/computer vision and/or analyzing single unit neurophysiology data. Proficiency in programming is necessary (e.g. Matlab, Python, Javascript, R, PyTorch/Lua).
+To apply, please send your curriculum vitae, a brief statement of research interests, the expected date of availability, and the names of two references by e-mail to Dr. Talia Konkle (tkonkle@fas.harvard.edu).
+</div>
+
+-->
+
+<!-- <div class="tkCard">
+
+  <span class="lightItalic">We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law.</span>
+
+</div> -->
+
+
+<!-- 		    <div class="tkheading">DATA SCIENTIST / ANALYST position: </div> -->
+<!--
+<div class="tkCard">
+
+<b> DATA SCIENTIST / ANALYST: </b>
+<br><br>The core responsibilities for this person will be to develop and implement novel analyses of functional neuroimaging data of the human brain, working directly with Dr. Talia Konkle.  This position is geared towards individuals with strong computational and technical skills, with a background in computer science, math, and/or statistics.  Experience with computer programming languages and statistical software (e.g. Matlab, Python, R) is required. The candidate should be deeply interested in exploring patterns in richly structured multivariate data—any specific interest in human brain organization and/or background in cognitive science or neuroscience is ideal, but not required.
+<br><br>The work place is a cognitive neuroscience research lab setting, which is a dynamic environment that offers exposure to cutting edge research in cognitive neuroscience, and the possibility of collaboration with other researchers. The position does not require operational lab work, such as managing experimental protocols, and designing and running experiments. However, training on these aspects of the research process is most certainly available to interested candidates.
+<br><br>Start date is negotiable.  To apply, please email Dr. Talia Konkle (tkonkle@fas.harvard.edu), and include a CV or resume, contact information for two references, and a cover letter or brief statement of interest describing your previous experience that is relevant for this position.
+<br><br> <span class="lightItalic">We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law.</span>
+</div>
+-->
+
+
+<!--
+<div class="tkheading"> Current Open Positions: </div>
+<div class="tkCard">
+<b>
+<ul>
+<li><a href="#">Data Scientist</a></li>
+<li><a href="#">Graduate student</a></li>
+<li><a href="#">Post-Doctoral Fellow</a></li>
+</ul>
+</b>
+</div>
+
+<div class="tkheading"> Interested in graduate school? </div>
+<div class="tkCard">
+<b>Q: What should I do to prepare for graduate school in this field, and for your lab in particular?</b>
+
+<br><br>Take computer science, math (linear algebra), and statistics classes! These are often not required courses in a typical pscyhology or neuroscience undergradate major, but they are hugely valuable skills to have for doing research in this field, and also for my lab specifically as modern fMRI data analyses require some heavy-duty quantitative chops.
+
+<br><br>Find a research assistant position, and get some research experience in before you apply to grad school! If you stick with a lab for a year or more, you’ll get exposure to the whole research cycle.
+Try to find a lab that is close to the topic and methodology of your primary interests. (How do you find those positions? Try meeting with graduate students or professors and get them to recommend some people to email directly.)
+
+<br><br> You can apply to work in my lab through the <a href="#">Psychology program</a> or the <a href="#">Program in Neuroscience</a> (or both!).
+</div>
+
+<div class="tkheading"> A little on doing science: </div>
+<div class="tkCard">
+<b>Q: My research is going slow, nothing’s working, I don’t have any papers yet, my peers are doing better than me... What do I do?</b>
+
+<br><br>
+These comparisons are relative to an internal standard you have of yourself and what a student of so-and-so many years should be able to do. It's pretty darn typical to think this at some point (or many points) in your career. But, while that may be comforting it's not actionable.
+
+<br><br> So, here are some techniques I use to squash these kinds of thoughts:
+<br><br><u>One: Reject the premise.</u>
+<br>Most of the time (if not always?), those feelings are driven by expectations that are ludicrous, and actually, often hilarious. (One of my friends says when this happens to her she plays the game: “Are you kidding me?” in which she, out loud, voices the expectation she has in her head, “You mean to say that you expect to be able to implement X and Y, having learned Z for only 6 months? Are you kidding me!?!”).
+<br><br><u>Two (and this one’s harder, but I think more powerful): Accept the premise, but recognize that it’s not important.</u>
+<br>Even if someone can learn something in 6 months and it takes you 3 years, that does not mean that you are not cut out for this job.
+Science is not about being the quickest or the smartest. (It's about having ideas, discovering something new, and communicating something interesting and concrete and testable.)
+And the insight is, expectations of what you should know are just not helpful for your learning. They can ONLY hold you back and make you do worse. So, who needs them?
+Let them go. So what if it takes you longer? So what if you're afraid to ask questions because you feel like you “should-know-this-by-now”?
+Do you need the answers? Then, let yourself know that it’s ok to go get them!
+I have found that in my life, if it is evident that I am willing to put in the time and energy to work hard on my learning,
+other people can be surprisingly generous with their time.
+
+<br><br> <u>At the core: know what you know, know what you don’t know, and don’t confuse that with your worth.</u>
+<br>More generally, the more accurate and truthful you are in knowing what you know well, what you need to know better, what you don’t know, then the easier this job is to do.
+Over-confidence in your knowledge will leave you doing science without a richly structured foundation, so the conceptual impact of your work may be shallower.
+Worse, under-confidence will just￼halt your progress, and stop you when you could have succeeded with less doubt, and maybe a little more time.
+Plus, the right level of confidence in your work and knowledge has, as emergent consequences, the ability to answer questions from the audience with openness but also with authority,
+and the ability to talk with people about content you know less about, without feeling bad about yourself.
+
+<br><br>
+"Doubts are the barrier to entry. But, doubts and confidence issues are real and you can't let them take up your attentional resources. Direct full attention to the content, the questions at hand. Confidence is an emergent property from understanding." ~~ Ava Arsaga
+</div>
+-->
+
+
+<!-- ==================== sticky footer ==================== -->
+<footer class="footer tksidePadding">
+  <div class="pull-right">
+    <img class="harvardLogo" src="misc/Harvard_Shield_med.png">
+  </div>
+  <div class="pull-right">
+    <div class="footerText">
+      Department of Psychology<br>
+      Center for Brain Science<br>
+      Harvard University</div>
+    </div>
+  </footer>
+
+
+  <!-- ==================== scripts ==================== -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+  <!-- 	interface scripts -->
+  <script src="js/interface.js" type="text/javascript"></script>
+
+  <!-- ==================== analytics ==================== -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2934347-5', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+
+
 </body>
 </html>
