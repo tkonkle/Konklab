@@ -1,0 +1,294 @@
+
+
+/* blue #337ab7 */
+/* harvard red rgb(183,19,19) */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	font-family: "Open Sans";
+	font-size: 15px;
+
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover { cursor: hand; text-decoration: none;}
+a:active {text-decoration: underline;}
+
+
+.quickOutline {
+	border: 1px solid red;
+}
+
+
+
+
+/*  --------------- nav bar --------------- */
+
+.tknav {
+	width: 100%;
+	background-color: rgb(235, 235, 235);
+	padding-top: 35px;
+	padding-bottom: 15px;
+}
+.tknav a {color: rgb(0,0,0);}
+.tknav a:hover {color: #337ab7;  text-decoration: none;}
+
+#konkLabDiv {
+	display: inline-block;
+}
+#navLinksDiv {
+	display: inline-block;
+  	line-height: 28px;
+}
+
+.labname {
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: bold;
+	font-size: 24px;
+	padding-right: 24px;
+}
+.tknavlink {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 16px;
+	padding-right: 24px;
+}
+.tkactiveNavLink {
+	font-weight: bold;
+}
+
+/*  --------------- footer --------------- */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  /* add padding to match the header */
+  padding-right: 50px;
+  padding-left: 50px;
+
+  padding-top: 10px;
+
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  background-color: rgb(235, 235, 235);
+}
+
+.footerText {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.harvardLogo {
+	height: 45px;
+}
+
+/*  --------------- general pages --------------- */
+
+.tkpage {
+	display:none;
+}
+
+.tkheading {
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-top: 50px;
+}
+
+
+.tksidePadding {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.tkbottomPadding {
+	padding-bottom: 50px;
+}
+
+.tkCard {
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+.tkCard li {
+   margin-bottom: 10px;
+}
+
+.fullWidth {
+	width: 100%;
+}
+.noLeftSidePadding {
+	padding-left: 0px;
+}
+.noPadding {
+	padding: 0px;
+}
+.semiBold {
+	font-weight: 600;
+}
+
+/*  --------------- konklab --------------- */
+
+
+.konklabImg{
+	width:95%;
+}
+
+.welcomeText{
+	font-weight: 700;
+	font-size: 17px;
+}
+
+.frontTextBox {
+	margin: auto;
+/* 	font-size: 17px; */
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.labInfoLine {
+	margin-bottom: 10px;
+}
+
+.contactInfo {
+	letter-spacing: 3px;
+}
+
+.frontTextBox {
+	padding-top: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media only screen and (min-width : 768px) {
+}
+
+/* show it on small screens */
+/*
+@media screen and (max-width: 768px) {
+	#KonkleResearchImg      { display: none; };
+	#KonkleResearchVertImg 	{ display: block; };
+}
+
+@media screen and (min-width: 769px) {
+	#KonkleResearchVertImg { display: none; };
+	#KonkleResearchImg     { display: block; };
+}
+ */
+
+/*  --------------- people --------------- */
+
+.personCard {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.personPic {
+	width: 100%;
+	border: 1px solid black;
+}
+.personName {
+	width: 100%;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: 600;
+}
+
+
+/*  --------------- publications --------------- */
+
+.pubCard {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+.pubHeading {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.pubAuthor {
+	font-size: 14px;
+}
+.pubTitle {
+	font-size: 15px;
+	font-weight: bold;
+	color: #337ab7;
+}
+.pubTitle:hover {
+	cursor: hand;
+}
+
+.pubJournal {
+	font-style: italic;
+}
+
+/*  --------------- research --------------- */
+
+.researchCard {
+	padding-top: 25px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.researchImgDiv{
+	padding-left: 0px;
+}
+.researchBlurb{
+	padding-left: 0px;
+	margin-bottom: 25px;
+}
+.researchImg {
+	width: 100%;
+}
+
+.researchRef {
+/* 	font-style: italic; */
+}
+
+.line {
+	border-top: 1px solid rgb(200, 200, 200);
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+ul.marginbottom > li {
+	margin-bottom: 8px;
+}
+
+/*  --------------- image sets --------------- */
+.formatCitation {
+	font-style: italic;
+	color: rgb(180, 180, 180);
+	font-size: 14px;
+}
+
+/*  --------------- more --------------- */
+
+.lightItalic {
+	color: rgb(125, 125, 125);
+	font-size: 13px;
+}
+
+
+.lightWeight {
+  color: rgb(180, 180, 180);
+}
